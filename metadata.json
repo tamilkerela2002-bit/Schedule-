@@ -1,0 +1,6 @@
+{
+  "name": "AuraTask",
+  "description": "AI-powered task prioritizer featuring reactive anime companions that adapt to your mood and schedule.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

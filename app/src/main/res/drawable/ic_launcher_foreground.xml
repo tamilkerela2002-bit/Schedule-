@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle blur shadow/glow behind the rounded rectangle square -->
+    <path
+        android:pathData="M 40,28 L 68,28 A 12,12 0 0 1 80,40 L 80,68 A 12,12 0 0 1 68,80 L 40,80 A 12,12 0 0 1 28,68 L 28,40 A 12,12 0 0 1 40,28 Z"
+        android:fillColor="#3D6750A4" />
+
+    <!-- Solid Rounded Rectangle Card Body with a beautiful color-shifting gradient -->
+    <path
+        android:pathData="M 40,28 L 68,28 A 12,12 0 0 1 80,40 L 80,68 A 12,12 0 0 1 68,80 L 40,80 A 12,12 0 0 1 28,68 L 28,40 A 12,12 0 0 1 40,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="28"
+                android:endX="80"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#EADDFF" />
+                <item android:offset="1.0" android:color="#21005D" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing border of the rounded rectangle square -->
+    <path
+        android:pathData="M 40,28 L 68,28 A 12,12 0 0 1 80,40 L 80,68 A 12,12 0 0 1 68,80 L 40,80 A 12,12 0 0 1 28,68 L 28,40 A 12,12 0 0 1 40,28 Z"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFD0BCFF" />
+
+    <!-- A stylized productivity clock ring centered in the card -->
+    <path
+        android:pathData="M 54,38 A 16,16 0 1 0 70,54 A 16,16 0 0 0 54,38 Z"
+        android:strokeWidth="2.0"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- Productivity glowing golden AI scheduler aura star -->
+    <path
+        android:pathData="M 72,36 L 73.5,40 L 77.5,40.5 L 74.5,43 L 75.5,47 L 72,45 L 68.5,47 L 69.5,43 L 66.5,40.5 L 70.5,40 Z"
+        android:fillColor="#FFD4AF37" />
+
+    <!-- Centered bold productivity checkmark -->
+    <path
+        android:pathData="M 47,54 L 52,59 L 63,48"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>
